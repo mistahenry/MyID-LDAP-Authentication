@@ -1,0 +1,16 @@
+Completed this for my directed study.
+
+The web app is quite simple. Using the JLDAP open Ldap
+library, a user enters in a myID and password and the
+LDAP Directory for uga authenticates on the password and
+returns the user assuming the authentication is successful.
+
+The heavy lifting is inside the SSLConnection class.
+
+The User info returned can easily be customized.
+
+The SSL certificates are available here:
+https://eits.uga.edu/access_and_security/myid/ldap_authentication
+
+And, you must be VPN'd into the UGA network for this application to 
+be able to communicate with UGA's LDAP server.
