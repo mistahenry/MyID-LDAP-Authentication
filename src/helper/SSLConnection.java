@@ -51,8 +51,6 @@ public class SSLConnection {
 		ldapPort = LDAPConnection.DEFAULT_SSL_PORT;
         this.ldapVersion = LDAPConnection.LDAP_V3;
         this.ldapHost = "eds.uga.edu";
-        this.loginDN = "cn=henryw14,ou=users,o=uga";
-        this.password = "Firebolt1@";
         this.pathToJava = "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/security/cacerts";
 	}
     /**
